@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.CustomerRepository;
 import com.example.domain.Customer;
-import com.example.repository.CustomerRepository;
 
 @Service
 public class CustomerService {
